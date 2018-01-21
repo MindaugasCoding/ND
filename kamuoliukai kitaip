@@ -1,0 +1,54 @@
+using System;
+
+namespace sveriami_kamuoliukai2
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Kuris kamuoliukas defektuotas?");
+            double k1 = 1;
+            double k2 = 1;
+            double k3 = 1;
+            double k4 = 1;
+            double k5 = 1;
+            double k6 = 0.99;
+            double k7 = 1;
+            double k8 = 1;
+            double x = (k1 + k2 + k3 + k4 + k5 + k6 + k7 + k8)/8;
+            if (k1 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k1");
+            }
+            else if (k2 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k2");
+            }
+            else if (k3 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k3");
+            }
+            else if (k4 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k4");
+            }
+            else if (k5 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k5");
+            }
+            else if (k6 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k6");
+            }
+            else if (k7 < x)
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k7");
+            }
+            else
+            {
+                Console.WriteLine("Defektuotas kamuoliukas k8"); 
+            }
+            Console.ReadKey();
+        }
+    }
+}
